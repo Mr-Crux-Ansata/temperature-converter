@@ -35,6 +35,13 @@ They were installed with the following commands:
 npm install react-native-paper
 npm install react-native-safe-area-context
 ```
+## Styling in React Native Paper
+
+React Native Paper components can be styled using the `style` prop, just like other React Native components. In this project, styles were added through a `StyleSheet` definition to keep the layout organized and easier to maintain.
+
+For example, components such as `Text`, `TextInput`, and `Button` can receive visual properties like `backgroundColor`, `color`, `padding`, `margin`, and `borderRadius` through the `style` prop or through a shared style object.
+
+This approach was used to define the title, the input fields, and the button appearance in the temperature screen.
 
 ## Styling in React Native Paper
 
